@@ -14,16 +14,20 @@ class User extends Authenticatable
      *
      * @var array
      */
+
+    //tamara
     protected $fillable = [
         'name', 'edad',
     ];
-
+    //tamara porque le hemos quitado el timestamps y da error
     public $timestamps = false;
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
+
+    //tamara > no necesitamos lo de dentro
     protected $hidden = [
         //'password', 'remember_token',
     ];
